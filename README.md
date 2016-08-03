@@ -1,7 +1,19 @@
-# Everfocus software project starter
+# Everfocus software typescript project starter
 
 ## After pull
 
-- rename project name of `package.json`
+1. rename project name of `package.json`
 
-- rename project name of `typings.json`
+2. rename project name of `typings.json`
+
+## Command
+
+- Build to `commonjs` at `./dist`.
+```
+$ npm run build
+```
+
+- Test.
+```
+$ npm test
+```
