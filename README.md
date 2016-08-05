@@ -1,5 +1,7 @@
 # Typescript project starter
 
+It's a custom version of [ng2-webpack-config](https://github.com/ng2/ng2-webpack-config). Thanks for it.
+
 ## After pull
 
 1. rename project name of `package.json`
