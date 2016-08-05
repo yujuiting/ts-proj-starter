@@ -1,4 +1,4 @@
-# Everfocus software typescript project starter
+# Typescript project starter
 
 ## After pull
 
@@ -17,3 +17,16 @@ $ npm run build
 ```
 $ npm test
 ```
+
+## Config
+
+1. Project self import: `compilerOptions.paths['@proj']`
+
+```typescript
+import { ... } from '@proj/some/file';
+```
+
+2. Build output directory. Default is `./dist`;  
+   Check out `compilerOptions.outDir`.
+
+
